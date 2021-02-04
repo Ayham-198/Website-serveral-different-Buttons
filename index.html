@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Buttons styling</title>
+
+                                                                               <!-------Style------>
+                                         <style type="text/css">
+                                  
+
+
+                                      button{
+                                              transform:translate(630px);
+                                              }
+                                                   
+
+                                                                                           /* Button1 */
+
+                                     #btn1{background-color:#3253a7; color:#fff; font-size:20px; cursor:pointer; width:200px; height:50px; border:none; outline:none; border-radius:20px; transform:translate(575px);}
+                                     #btn1:hover{
+                                         background-color:#22449b;
+                                     }
+                                    
+ 
+                                                                                           /*Button2*/
+
+                                     #btn2{background-color:#5fe2b5;  cursor:pointer; width:175px; height:50px; color:#fff; font-size:20px; border:none; outline:none; transform:translate(585px);}
+                                     #btn2:hover{box-shadow:0px 0px 9px  #6b7974; }
+                                     #btn2:active{ background-color:#36b88b; }
+                                      
+                                                                                           /* Button3*/
+
+                                     #btn3{background-color:#fff;  color:#48942e; font-size:20px;  cursor:pointer; width:175px; height:50px; border:solid 2px #48942e; outline:none; transform:translate(590px);  }
+                                     #btn3:active{background-color:#48942e; color:#fff;}                                                              
+                                                                                            
+                                                                                         /* Button 4 */
+                                     #btn4{background-color:#fff; color:#cec322; font-size:20px; cursor:pointer;  width:200px; height:75px; outline:none; border:3px solid #cec322; transform:translate(580px);    }
+                                     #btn4:hover{background-image:url("images/spongbob.png"); -webkit-text-size-adjust: none;}
+                                     #sp1:hover{Display:none; }
+
+                                      
+                                      #btn5{
+									         background:none;
+											 width:200px;
+											 height:50px;
+											 outline:none;
+											 text-align:center;
+											 color:#00664d;
+											 border:2px #00b386 solid;
+											 transform:translate(590px);
+											 cursor:pointer;
+											 font-size:20px;
+									  }
+									  
+									  #btn5:active{background-color:#00b386; color:#fff;}
+									  
+									  
+									  
+                                          </style>
+										  
+										  
+										  
+										  
+										  
+										  
+										                          <!---------scripts------->
+										        <script type="text/javascript">
+										    var a;
+											function show_hide()
+                                             {
+                                              if(a==1)
+                                                  {
+												  document.getElementById("div1").style.display="inline";
+												  return a=0;
+												  }
+												  
+												  
+												  else	  
+												  { 
+												    document.getElementById("div1").style.display="none";
+												    return a=1;
+												  }
+											  
+										 }
+										         </script>
+</head>
+
+
+
+
+
+<body>
+
+    <br>
+    <br>
+    <br>
+    <br>
+	
+	
+	                              <div id="div1">
+                                         <!--------Button 1--------->
+ <button type="button" id="btn1">Test 1</button>
+ <br>
+ <br>
+ <br>
+ <br>
+ <br>
+ <br>
+                                         <!--------Button 2--------->                     
+ <button type="button" id="btn2">Test 2</button>
+ <br>
+ <br>
+ <br>
+ <br>
+ <br>
+ <br>
+                                         <!--------Button 3--------->  
+ <button type="button" id="btn3">Test 3</button>
+ <br>
+ <br>
+ <br>
+ <br>
+ <br>
+ <br>
+                                         <!--------Button 4--------->  
+ <button type="button" id="btn4"><span id="sp1">show spongy</span></button>
+ <br>
+ <br>
+ <br>
+ <br>
+ <br>
+ <br>
+                                              
+											  </div>
+											  
+						                 <!--------Button 5--------->  
+ <button type="button" id="btn5" onclick="show_hide()">Show and hide </button>
+ <br>
+ <br>
+ <br>
+ <br>
+ <br>
+ <br>
+ <br>
+ <br>
+ <br>
+ <br>
+ <br>
+ <br>
+
+                                                   
+
+
+</body>
+</html>
